@@ -1,0 +1,226 @@
+[
+  {
+    "title": "Enhanced Knights — Starter",
+    "id": "enhanced-knights",
+    "game": "Tekurant",
+    "format": "Standard",
+    "cardCount": 50,
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "lastModifiedAt": "2026-10-01T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Reaper",
+        "Gear",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 3,
+          "id": "ALDOUS_HERO_S_MENTOR"
+        },
+        {
+          "count": 3,
+          "id": "CAELAN"
+        },
+        {
+          "count": 3,
+          "id": "MERID"
+        },
+        {
+          "count": 3,
+          "id": "ROLAND"
+        }
+      ],
+      "Reaper": [
+        {
+          "count": 3,
+          "id": "DALAIN"
+        },
+        {
+          "count": 3,
+          "id": "FENN"
+        },
+        {
+          "count": 3,
+          "id": "MORVRAN"
+        },
+        {
+          "count": 3,
+          "id": "RIPHEN"
+        }
+      ],
+      "Gear": [
+        {
+          "count": 4,
+          "id": "CAELAN_S_ARROW"
+        },
+        {
+          "count": 4,
+          "id": "DALAIN_S_SPEAR"
+        },
+        {
+          "count": 3,
+          "id": "FENN_S_MOUNT"
+        },
+        {
+          "count": 4,
+          "id": "MERID_S_WARHAMMER"
+        },
+        {
+          "count": 4,
+          "id": "MORVRAN_S_FLAIL"
+        },
+        {
+          "count": 4,
+          "id": "RIPHEN_S_BLOODAXE"
+        },
+        {
+          "count": 3,
+          "id": "ROLAND_S_GREATSWORD"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 2,
+          "id": "ENERGY_WELL"
+        },
+        {
+          "count": 2,
+          "id": "INSPIRING_GROUNDS"
+        },
+        {
+          "count": 2,
+          "id": "MONUMENT_OF_STRATEGY"
+        },
+        {
+          "count": 1,
+          "id": "SCOUTS_BARRACKS"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Savanna Pride — Starter",
+    "id": "savanna-pride",
+    "game": "Tekurant",
+    "format": "Standard",
+    "cardCount": 50,
+    "createdAt": "2026-10-01T00:00:00.000Z",
+    "lastModifiedAt": "2026-10-01T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Reaper",
+        "Evolution",
+        "Tactic",
+        "Event",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 2,
+          "id": "KETTLEBUCK"
+        },
+        {
+          "count": 2,
+          "id": "MIRAGE_STRIDER"
+        },
+        {
+          "count": 4,
+          "id": "CHURNHORN"
+        },
+        {
+          "count": 4,
+          "id": "ASHSTRIPE"
+        },
+        {
+          "count": 2,
+          "id": "DUSKBREAKER"
+        },
+        {
+          "count": 4,
+          "id": "GRISTLETUSK"
+        }
+      ],
+      "Reaper": [
+        {
+          "count": 2,
+          "id": "SUNMANE_PRIDE_MATRIARCH"
+        },
+        {
+          "count": 3,
+          "id": "PRIDEWARDEN"
+        },
+        {
+          "count": 3,
+          "id": "GORELAUGH"
+        },
+        {
+          "count": 3,
+          "id": "RISTLEWING"
+        },
+        {
+          "count": 3,
+          "id": "DUSTLASH"
+        }
+      ],
+      "Evolution": [
+        {
+          "count": 2,
+          "id": "PRIDEWARDEN_LORD_OF_THE_BURNING_PLAIN"
+        },
+        {
+          "count": 2,
+          "id": "CARRION_KETTLE"
+        }
+      ],
+      "Tactic": [
+        {
+          "count": 2,
+          "id": "BARED_FANGS"
+        },
+        {
+          "count": 2,
+          "id": "HEAT_HAZE"
+        }
+      ],
+      "Event": [
+        {
+          "count": 3,
+          "id": "PRIDEWARDEN_S_PRIDE"
+        },
+        {
+          "count": 3,
+          "id": "SCORCHING_SUN"
+        },
+        {
+          "count": 2,
+          "id": "STAMPEDE"
+        },
+        {
+          "count": 2,
+          "id": "DROUGHT"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 3,
+          "id": "SUNBAKED_PLAIN"
+        },
+        {
+          "count": 2,
+          "id": "BONE_FIELD"
+        },
+        {
+          "count": 1,
+          "id": "WATERING_HOLE"
+        },
+        {
+          "count": 1,
+          "id": "ACACIA_GROVE"
+        }
+      ]
+    }
+  }
+]

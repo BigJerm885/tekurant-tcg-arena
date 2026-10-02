@@ -1,0 +1,405 @@
+{
+  "name": "Tekurant",
+  "menuBackgroundImage": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/banner.jpg",
+  "defaultRessources": {
+    "backgrounds": [
+      "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/backgrounds/mat_savanna.jpg",
+      "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/backgrounds/mat_enhanced.jpg"
+    ],
+    "decksUrl": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/decks/tekurant-decks.json"
+  },
+  "customHelp": "=== TEKURANT (formerly Yosemite) - Core Rules V5.01 === SETUP: load a starter deck (Enhanced Knights or Savanna Pride). Your 7 Adaptations start FACE DOWN in the Adaptation Deck pile (bottom-left), separate from your 50-card main deck. Set your Resistance card's counter 1 to 5. Arena doesn't enforce rules - you run the turn. DAWN: remove unspent Utility; Resistance drifts 1 toward 5; draw 1 (first player skips on turn 1); play the top Adaptation (free ones land in Adaptations, costed ones you move to hand); reset every Adaptation's Energy counter, both players'; untap; play Creatures/Evolutions. MAIN: one Creature at a time, each MUST feed - Home or Away. Harvester: eat Energy = Size from Adaptations (below 0 = Overgrazing: opponent +1 Dominance per point). Reaper: eat Harvester Population, each worth that Harvester's Size. Gain Dominance = food eaten (max Size). Not fully fed = destroyed immediately. AWAY: invasion check = defender's Resistance - your Invade = Population lost. Harvesters need 1+ Pop left; Reapers need Invade >= Resistance. New Creatures can't go Away without Rush. Defender may Contest with 1 Reaper (or Guardian): higher Size + mods wins; invader losing = starves. UTILITY: emptying one of your Adaptations on your turn = +1 Utility. Spend on Tactics/Events/Gear/Evolutions/costed Adaptations; it lasts until your next Dawn. DUSK: Dusk abilities; each surviving Harvester +1 Population; 4+ Energy left in your Adaptations = +1 Stagnation. No Creatures/Evolutions at Dusk. COUNTERS (bottom strip, in order): Dominance | Utility | Stagnation. WIN at 40 Dominance. LOSE on your 4th Stagnation. RESISTANCE = counter 1 on your pinned Resistance card (top-right): set it to 5 at the start. CARD COUNTERS: Creatures - counter 1 = Population (set to 1 when played; Reapers have none), counter 2 = Rank. Adaptations - counter 1 = Energy left (reset to printed Energy at EVERY Dawn). TAP a Creature once it has made its feeding attempt; TAP an Adaptation when you empty it, then add +1 Utility. Tokens: S = Scorch (on an Adaptation, -1 Energy at next refresh), Z = Hibernating. Away: drag an invader to your Away zone. Fully fed invaders return Home; the rest starve (to Graveyard). Flip the Turn Order card for keywords and the Contest rule.",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/CardList.json",
+    "cardBack": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/cardback.jpg"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "faction",
+      "type",
+      "rarity"
+    ],
+    "formats": [
+      {
+        "title": "Standard",
+        "gameplay": "Classic",
+        "customCategories": [
+          "Harvester",
+          "Reaper",
+          "Evolution",
+          "Tactic",
+          "Event",
+          "Gear",
+          "Adaptation"
+        ]
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Select any cards to put back, then draw that many. Once per game.   ***  CHECK: your ADAPTATION DECK pile (bottom-left) should hold 7 cards, and set your Resistance card's counter 1 to 5.",
+        "startingHandSize": 7,
+        "drawNewHand": false,
+        "drawNewSelectedCards": true,
+        "putSelectionAtBottom": false,
+        "mulliganCount": {
+          "min": 0,
+          "max": 1
+        }
+      },
+      "beforeGameStart": {
+        "initialBoardSetup": [
+          {
+            "createCardId": "REF1",
+            "destination": "Reference",
+            "count": 1,
+            "isHorizontal": false
+          },
+          {
+            "createCardId": "RES1",
+            "destination": "Resistance",
+            "count": 1,
+            "isHorizontal": false
+          }
+        ]
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "",
+        "drawPerTurn": 1
+      },
+      "defaultNotes": "COUNTERS (bottom strip, in order): Dominance | Utility | Stagnation. WIN at 40 Dominance. LOSE on your 4th Stagnation. RESISTANCE = counter 1 on your pinned Resistance card (top-right): set it to 5 at the start. CARD COUNTERS: Creatures - counter 1 = Population (set to 1 when played; Reapers have none), counter 2 = Rank. Adaptations - counter 1 = Energy left (reset to printed Energy at EVERY Dawn). TAP a Creature once it has made its feeding attempt; TAP an Adaptation when you empty it, then add +1 Utility. Tokens: S = Scorch (on an Adaptation, -1 Energy at next refresh), Z = Hibernating. Away: drag an invader to your Away zone. Fully fed invaders return Home; the rest starve (to Graveyard). Flip the Turn Order card for keywords and the Contest rule.",
+      "draggableTokens": [
+        {
+          "id": "scorch",
+          "name": "Scorch",
+          "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/token_scorch.png"
+        },
+        {
+          "id": "hibernate",
+          "name": "Hibernating",
+          "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/token_hibernate.png"
+        }
+      ],
+      "tokens": [],
+      "countersStartingValues": [
+        0,
+        0,
+        0
+      ],
+      "hideFacedDownCards": false,
+      "sections": {
+        "customSections": [
+          "Home",
+          "Away",
+          "Resistance",
+          "Adaptation",
+          "Adaptations",
+          "Reference"
+        ],
+        "layout": {
+          "direction": "column",
+          "content": [
+            {
+              "direction": "row",
+              "style": {
+                "gap": "6px"
+              },
+              "content": [
+                {
+                  "section": "Home",
+                  "style": {
+                    "min-height": "13vh",
+                    "width": "60%"
+                  }
+                },
+                {
+                  "section": "Away",
+                  "style": {
+                    "min-height": "13vh",
+                    "width": "31%"
+                  }
+                },
+                {
+                  "section": "Resistance",
+                  "style": {
+                    "min-height": "13vh",
+                    "width": "9%"
+                  }
+                }
+              ]
+            },
+            {
+              "direction": "row",
+              "style": {
+                "gap": "6px",
+                "margin-top": "4px"
+              },
+              "content": [
+                {
+                  "section": "Adaptation",
+                  "style": {
+                    "min-height": "9vh",
+                    "width": "10%"
+                  }
+                },
+                {
+                  "section": "Adaptations",
+                  "style": {
+                    "min-height": "9vh",
+                    "flex": "1"
+                  }
+                },
+                {
+                  "section": "Reference",
+                  "style": {
+                    "min-height": "9vh",
+                    "width": "9%"
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [
+          "Adaptation"
+        ],
+        "autoPlayFromHand": {
+          "Harvester": "Home",
+          "Reaper": "Home",
+          "Evolution": "Home",
+          "Gear": "Home",
+          "Token": "Home",
+          "Adaptation": "Adaptations",
+          "Tactic": "Discard",
+          "Event": "Discard"
+        },
+        "autoPlayFromStack": {
+          "Adaptation": "Adaptations",
+          "Token": "Home"
+        },
+        "sectionsDict": {
+          "Hand": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Hand",
+            "isHidden": "opponent-only",
+            "height": "DEFAULT",
+            "alignment": "CENTER",
+            "autoPayFrom": true,
+            "noAutoPayTo": false,
+            "displayedTitle": ""
+          },
+          "Discard": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Discard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "DECK",
+            "noAutoPayTo": true,
+            "displayedTitle": "Graveyard"
+          },
+          "Deck": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Deck",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "displayedTitle": ""
+          },
+          "Stack": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Stack",
+            "isHidden": "yes",
+            "height": "none",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "displayedTitle": "Stack"
+          },
+          "Exile": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Exile",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": true,
+            "displayedTitle": "Exile"
+          },
+          "ExileHidden": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Exile (Hidden)",
+            "isHidden": "yes",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": true,
+            "displayedTitle": "Exile (Hidden)"
+          },
+          "Sideboard": {
+            "isHorizontalAllowed": false,
+            "isGroupForbidden": true,
+            "opponentAlignment": false,
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "isDefaultSection": true,
+            "title": "Sideboard",
+            "isHidden": "no",
+            "height": "DEFAULT",
+            "alignment": "NONE",
+            "noAutoPayTo": false,
+            "displayedTitle": ""
+          },
+          "Home": {
+            "title": "Home",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Home Territory",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Away": {
+            "title": "Away",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Away (invading)",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Resistance": {
+            "title": "Resistance",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Resistance",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Adaptation": {
+            "title": "Adaptation",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "DECK",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Adaptation Deck",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": true,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Adaptations": {
+            "title": "Adaptations",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "START",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Adaptations (Energy)",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Reference": {
+            "title": "Reference",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "Turn Order",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
