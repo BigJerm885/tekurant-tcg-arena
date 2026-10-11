@@ -265,19 +265,19 @@
     "cardType": "Adaptation",
     "energy": 1
   },
-  "WATERING_HOLE": {
-    "id": "WATERING_HOLE",
+  "OASIS": {
+    "id": "OASIS",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Watering Hole",
+        "name": "Oasis",
         "type": "Adaptation",
         "cost": "0",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/WATERING_HOLE.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/OASIS.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Watering Hole",
+    "name": "Oasis",
     "type": "Adaptation",
     "cost": "0",
     "faction": "Savanna Pride",
@@ -443,19 +443,19 @@
     "size": 3,
     "invade": 5
   },
-  "RISTLEWING": {
-    "id": "RISTLEWING",
+  "VULTURRA": {
+    "id": "VULTURRA",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Ristlewing",
+        "name": "Vulturra",
         "type": "Reaper",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RISTLEWING.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/VULTURRA.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Ristlewing",
+    "name": "Vulturra",
     "type": "Reaper",
     "cost": "2",
     "faction": "Savanna Pride",
