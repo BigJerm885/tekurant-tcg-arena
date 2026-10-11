@@ -1,335 +1,4 @@
 {
-  "ALDOUS_HERO_S_MENTOR": {
-    "id": "ALDOUS_HERO_S_MENTOR",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Aldous, Hero's Mentor",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ALDOUS_HERO_S_MENTOR.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Aldous, Hero's Mentor",
-    "type": "Harvester",
-    "cost": "1",
-    "faction": "Enhanced Knights",
-    "rarity": "Uncommon",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 1,
-    "invade": 3
-  },
-  "CAELAN": {
-    "id": "CAELAN",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Caelan",
-        "type": "Harvester",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CAELAN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Caelan",
-    "type": "Harvester",
-    "cost": "1",
-    "faction": "Enhanced Knights",
-    "rarity": "Rare",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 1,
-    "invade": 6
-  },
-  "DALAIN": {
-    "id": "DALAIN",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Dalain",
-        "type": "Reaper",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DALAIN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Dalain",
-    "type": "Reaper",
-    "cost": "2",
-    "faction": "Enhanced Knights",
-    "rarity": "Rare",
-    "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 2,
-    "invade": 4
-  },
-  "FENN": {
-    "id": "FENN",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Fenn",
-        "type": "Reaper",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/FENN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Fenn",
-    "type": "Reaper",
-    "cost": "2",
-    "faction": "Enhanced Knights",
-    "rarity": "Common",
-    "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 2,
-    "invade": 7
-  },
-  "MERID": {
-    "id": "MERID",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Merid",
-        "type": "Harvester",
-        "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MERID.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Merid",
-    "type": "Harvester",
-    "cost": "4",
-    "faction": "Enhanced Knights",
-    "rarity": "Mythic",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 4,
-    "invade": 2
-  },
-  "MORVRAN": {
-    "id": "MORVRAN",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Morvran",
-        "type": "Reaper",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MORVRAN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Morvran",
-    "type": "Reaper",
-    "cost": "3",
-    "faction": "Enhanced Knights",
-    "rarity": "Mythic",
-    "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 3,
-    "invade": 3
-  },
-  "RIPHEN": {
-    "id": "RIPHEN",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Riphen",
-        "type": "Reaper",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RIPHEN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Riphen",
-    "type": "Reaper",
-    "cost": "2",
-    "faction": "Enhanced Knights",
-    "rarity": "Common",
-    "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 2,
-    "invade": 4
-  },
-  "ROLAND": {
-    "id": "ROLAND",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Roland",
-        "type": "Harvester",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ROLAND.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Roland",
-    "type": "Harvester",
-    "cost": "2",
-    "faction": "Enhanced Knights",
-    "rarity": "Legendary",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 2,
-    "invade": 5
-  },
-  "SQUIRE_TOKEN": {
-    "id": "SQUIRE_TOKEN",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "Squire Token",
-        "type": "Token",
-        "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SQUIRE_TOKEN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Squire Token",
-    "type": "Token",
-    "cost": "1",
-    "faction": "Enhanced Knights",
-    "rarity": "Token",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 1,
-    "invade": 3
-  },
-  "CAELAN_S_ARROW": {
-    "id": "CAELAN_S_ARROW",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Caelan's Arrow",
-        "type": "Gear",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CAELAN_S_ARROW.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Caelan's Arrow",
-    "type": "Gear",
-    "cost": "2",
-    "faction": "Enhanced Knights",
-    "rarity": "Rare",
-    "cardType": "Gear"
-  },
-  "DALAIN_S_SPEAR": {
-    "id": "DALAIN_S_SPEAR",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Dalain's Spear",
-        "type": "Gear",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DALAIN_S_SPEAR.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Dalain's Spear",
-    "type": "Gear",
-    "cost": "3",
-    "faction": "Enhanced Knights",
-    "rarity": "Rare",
-    "cardType": "Gear"
-  },
-  "FENN_S_MOUNT": {
-    "id": "FENN_S_MOUNT",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Fenn's Mount",
-        "type": "Gear",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/FENN_S_MOUNT.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Fenn's Mount",
-    "type": "Gear",
-    "cost": "3",
-    "faction": "Enhanced Knights",
-    "rarity": "Common",
-    "cardType": "Gear"
-  },
-  "MERID_S_WARHAMMER": {
-    "id": "MERID_S_WARHAMMER",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Merid's Warhammer",
-        "type": "Gear",
-        "cost": "5",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MERID_S_WARHAMMER.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Merid's Warhammer",
-    "type": "Gear",
-    "cost": "5",
-    "faction": "Enhanced Knights",
-    "rarity": "Mythic",
-    "cardType": "Gear"
-  },
-  "MORVRAN_S_FLAIL": {
-    "id": "MORVRAN_S_FLAIL",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Morvran's Flail",
-        "type": "Gear",
-        "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MORVRAN_S_FLAIL.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Morvran's Flail",
-    "type": "Gear",
-    "cost": "4",
-    "faction": "Enhanced Knights",
-    "rarity": "Mythic",
-    "cardType": "Gear"
-  },
-  "RIPHEN_S_BLOODAXE": {
-    "id": "RIPHEN_S_BLOODAXE",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Riphen's Bloodaxe",
-        "type": "Gear",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RIPHEN_S_BLOODAXE.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Riphen's Bloodaxe",
-    "type": "Gear",
-    "cost": "3",
-    "faction": "Enhanced Knights",
-    "rarity": "Common",
-    "cardType": "Gear"
-  },
-  "ROLAND_S_GREATSWORD": {
-    "id": "ROLAND_S_GREATSWORD",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Roland's Greatsword",
-        "type": "Gear",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ROLAND_S_GREATSWORD.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Roland's Greatsword",
-    "type": "Gear",
-    "cost": "3",
-    "faction": "Enhanced Knights",
-    "rarity": "Legendary",
-    "cardType": "Gear"
-  },
   "PRIDEWARDEN_S_PRIDE": {
     "id": "PRIDEWARDEN_S_PRIDE",
     "isToken": false,
@@ -368,6 +37,7 @@
     "rarity": "Common",
     "cardType": "Creature",
     "diet": "Harvester",
+    "hunger": 1,
     "size": 1,
     "invade": 3
   },
@@ -390,6 +60,7 @@
     "rarity": "Uncommon",
     "cardType": "Creature",
     "diet": "Harvester",
+    "hunger": 2,
     "size": 2,
     "invade": 6
   },
@@ -400,20 +71,21 @@
       "front": {
         "name": "Sunmane, Pride Matriarch",
         "type": "Reaper",
-        "cost": "5",
+        "cost": "4",
         "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SUNMANE_PRIDE_MATRIARCH.jpg",
         "isHorizontal": false
       }
     },
     "name": "Sunmane, Pride Matriarch",
     "type": "Reaper",
-    "cost": "5",
+    "cost": "4",
     "faction": "Savanna Pride",
     "rarity": "Legendary",
     "cardType": "Creature",
     "diet": "Reaper",
+    "hunger": 4,
     "size": 5,
-    "invade": 5
+    "invade": 4
   },
   "SCORCHING_SUN": {
     "id": "SCORCHING_SUN",
@@ -517,42 +189,41 @@
       "front": {
         "name": "Pridewarden, Lord of the Burning Plain",
         "type": "Evolution",
-        "cost": "3",
+        "cost": "0",
         "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/PRIDEWARDEN_LORD_OF_THE_BURNING_PLAIN.jpg",
         "isHorizontal": false
       }
     },
     "name": "Pridewarden, Lord of the Burning Plain",
     "type": "Evolution",
-    "cost": "3",
+    "cost": "0",
     "faction": "Savanna Pride",
     "rarity": "Mythic",
     "cardType": "Evolution",
     "diet": "Reaper",
+    "hunger": 4,
     "size": 5,
     "invade": 4
   },
-  "CARRION_KETTLE": {
-    "id": "CARRION_KETTLE",
+  "SCAVENGER_S_TEETH": {
+    "id": "SCAVENGER_S_TEETH",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Carrion Kettle",
+        "name": "Scavenger's teeth",
         "type": "Evolution",
         "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CARRION_KETTLE.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SCAVENGER_S_TEETH.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Carrion Kettle",
+    "name": "Scavenger's teeth",
     "type": "Evolution",
     "cost": "2",
     "faction": "Savanna Pride",
     "rarity": "Uncommon",
     "cardType": "Evolution",
-    "diet": "Reaper",
-    "size": 3,
-    "invade": 7
+    "diet": "Reaper"
   },
   "SUNBAKED_PLAIN": {
     "id": "SUNBAKED_PLAIN",
@@ -572,7 +243,7 @@
     "faction": "Savanna Pride",
     "rarity": "Common",
     "cardType": "Adaptation",
-    "energy": 2
+    "energy": 3
   },
   "BONE_FIELD": {
     "id": "BONE_FIELD",
@@ -620,19 +291,543 @@
     "face": {
       "front": {
         "name": "Acacia Grove",
-        "type": "Adaptation",
-        "cost": "1",
+        "type": "Costed Adaptation",
+        "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ACACIA_GROVE.jpg",
         "isHorizontal": false
       }
     },
     "name": "Acacia Grove",
-    "type": "Adaptation",
-    "cost": "1",
+    "type": "Costed Adaptation",
+    "cost": "2",
     "faction": "Savanna Pride",
     "rarity": "Uncommon",
     "cardType": "Adaptation",
     "energy": 2
+  },
+  "CHURNHORN": {
+    "id": "CHURNHORN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Churnhorn",
+        "type": "Harvester",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CHURNHORN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Churnhorn",
+    "type": "Harvester",
+    "cost": "3",
+    "faction": "Savanna Pride",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 2,
+    "invade": 5
+  },
+  "ASHSTRIPE": {
+    "id": "ASHSTRIPE",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ashstripe",
+        "type": "Harvester",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ASHSTRIPE.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ashstripe",
+    "type": "Harvester",
+    "cost": "2",
+    "faction": "Savanna Pride",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 2,
+    "size": 2,
+    "invade": 5
+  },
+  "DUSKBREAKER": {
+    "id": "DUSKBREAKER",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Duskbreaker",
+        "type": "Harvester",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUSKBREAKER.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Duskbreaker",
+    "type": "Harvester",
+    "cost": "3",
+    "faction": "Savanna Pride",
+    "rarity": "Rare",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 3,
+    "invade": 3
+  },
+  "GRISTLETUSK": {
+    "id": "GRISTLETUSK",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gristletusk",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GRISTLETUSK.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gristletusk",
+    "type": "Harvester",
+    "cost": "1",
+    "faction": "Savanna Pride",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 1,
+    "size": 1,
+    "invade": 4
+  },
+  "PRIDEWARDEN": {
+    "id": "PRIDEWARDEN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Pridewarden",
+        "type": "Reaper",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/PRIDEWARDEN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pridewarden",
+    "type": "Reaper",
+    "cost": "4",
+    "faction": "Savanna Pride",
+    "rarity": "Rare",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 4,
+    "size": 4,
+    "invade": 3
+  },
+  "GORELAUGH": {
+    "id": "GORELAUGH",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Gorelaugh",
+        "type": "Reaper",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GORELAUGH.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gorelaugh",
+    "type": "Reaper",
+    "cost": "3",
+    "faction": "Savanna Pride",
+    "rarity": "Uncommon",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 3,
+    "size": 3,
+    "invade": 5
+  },
+  "RISTLEWING": {
+    "id": "RISTLEWING",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Ristlewing",
+        "type": "Reaper",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RISTLEWING.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Ristlewing",
+    "type": "Reaper",
+    "cost": "2",
+    "faction": "Savanna Pride",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 2,
+    "size": 2,
+    "invade": 7
+  },
+  "DUSTLASH": {
+    "id": "DUSTLASH",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dustlash",
+        "type": "Reaper",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUSTLASH.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dustlash",
+    "type": "Reaper",
+    "cost": "1",
+    "faction": "Savanna Pride",
+    "rarity": "Uncommon",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 1,
+    "size": 1,
+    "invade": 8
+  },
+  "ALDOUS_HERO_S_MENTOR": {
+    "id": "ALDOUS_HERO_S_MENTOR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Aldous, Hero's Mentor",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ALDOUS_HERO_S_MENTOR.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Aldous, Hero's Mentor",
+    "type": "Harvester",
+    "cost": "1",
+    "faction": "Enhanced Knights",
+    "rarity": "Uncommon",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 1,
+    "size": 1,
+    "invade": 3
+  },
+  "CAELAN": {
+    "id": "CAELAN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Caelan",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CAELAN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Caelan",
+    "type": "Harvester",
+    "cost": "1",
+    "faction": "Enhanced Knights",
+    "rarity": "Rare",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 1,
+    "size": 1,
+    "invade": 6
+  },
+  "DALAIN": {
+    "id": "DALAIN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dalain",
+        "type": "Reaper",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DALAIN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dalain",
+    "type": "Reaper",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Rare",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 2,
+    "size": 2,
+    "invade": 4
+  },
+  "FENN": {
+    "id": "FENN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fenn",
+        "type": "Reaper",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/FENN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fenn",
+    "type": "Reaper",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 2,
+    "size": 2,
+    "invade": 7
+  },
+  "MERID": {
+    "id": "MERID",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Merid",
+        "type": "Harvester",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MERID.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Merid",
+    "type": "Harvester",
+    "cost": "4",
+    "faction": "Enhanced Knights",
+    "rarity": "Mythic",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 4,
+    "size": 4,
+    "invade": 2
+  },
+  "MORVRAN": {
+    "id": "MORVRAN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Morvran",
+        "type": "Reaper",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MORVRAN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Morvran",
+    "type": "Reaper",
+    "cost": "3",
+    "faction": "Enhanced Knights",
+    "rarity": "Mythic",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 3,
+    "size": 3,
+    "invade": 3
+  },
+  "RIPHEN": {
+    "id": "RIPHEN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Riphen",
+        "type": "Reaper",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RIPHEN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Riphen",
+    "type": "Reaper",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Reaper",
+    "hunger": 2,
+    "size": 2,
+    "invade": 4
+  },
+  "ROLAND": {
+    "id": "ROLAND",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Roland",
+        "type": "Harvester",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ROLAND.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Roland",
+    "type": "Harvester",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Legendary",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 2,
+    "size": 2,
+    "invade": 5
+  },
+  "SQUIRE_TOKEN": {
+    "id": "SQUIRE_TOKEN",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Squire Token",
+        "type": "Token",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SQUIRE_TOKEN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Squire Token",
+    "type": "Token",
+    "cost": "1",
+    "faction": "Enhanced Knights",
+    "rarity": "Token",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 1,
+    "size": 1,
+    "invade": 3
+  },
+  "CAELAN_S_ARROW": {
+    "id": "CAELAN_S_ARROW",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Caelan's Arrow",
+        "type": "Gear",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CAELAN_S_ARROW.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Caelan's Arrow",
+    "type": "Gear",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Rare",
+    "cardType": "Gear"
+  },
+  "DALAIN_S_SPEAR": {
+    "id": "DALAIN_S_SPEAR",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Dalain's Spear",
+        "type": "Gear",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DALAIN_S_SPEAR.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dalain's Spear",
+    "type": "Gear",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Rare",
+    "cardType": "Gear"
+  },
+  "FENN_S_MOUNT": {
+    "id": "FENN_S_MOUNT",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Fenn's Mount",
+        "type": "Gear",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/FENN_S_MOUNT.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Fenn's Mount",
+    "type": "Gear",
+    "cost": "2",
+    "faction": "Enhanced Knights",
+    "rarity": "Common",
+    "cardType": "Gear"
+  },
+  "MERID_S_WARHAMMER": {
+    "id": "MERID_S_WARHAMMER",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Merid's Warhammer",
+        "type": "Gear",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MERID_S_WARHAMMER.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Merid's Warhammer",
+    "type": "Gear",
+    "cost": "4",
+    "faction": "Enhanced Knights",
+    "rarity": "Mythic",
+    "cardType": "Gear"
+  },
+  "MORVRAN_S_FLAIL": {
+    "id": "MORVRAN_S_FLAIL",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Morvran's Flail",
+        "type": "Gear",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MORVRAN_S_FLAIL.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Morvran's Flail",
+    "type": "Gear",
+    "cost": "3",
+    "faction": "Enhanced Knights",
+    "rarity": "Mythic",
+    "cardType": "Gear"
+  },
+  "RIPHEN_S_BLOODAXE": {
+    "id": "RIPHEN_S_BLOODAXE",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Riphen's Bloodaxe",
+        "type": "Gear",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RIPHEN_S_BLOODAXE.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Riphen's Bloodaxe",
+    "type": "Gear",
+    "cost": "1",
+    "faction": "Enhanced Knights",
+    "rarity": "Common",
+    "cardType": "Gear"
+  },
+  "ROLAND_S_GREATSWORD": {
+    "id": "ROLAND_S_GREATSWORD",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Roland's Greatsword",
+        "type": "Gear",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ROLAND_S_GREATSWORD.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Roland's Greatsword",
+    "type": "Gear",
+    "cost": "0",
+    "faction": "Enhanced Knights",
+    "rarity": "Legendary",
+    "cardType": "Gear"
   },
   "ENERGY_WELL": {
     "id": "ENERGY_WELL",
@@ -660,14 +855,14 @@
     "face": {
       "front": {
         "name": "Banner of Humankind",
-        "type": "Adaptation",
+        "type": "Costed Adaptation",
         "cost": "2",
         "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BANNER_OF_HUMANKIND.jpg",
         "isHorizontal": false
       }
     },
     "name": "Banner of Humankind",
-    "type": "Adaptation",
+    "type": "Costed Adaptation",
     "cost": "2",
     "faction": "Enhanced Knights",
     "rarity": "Rare",
@@ -720,195 +915,569 @@
     "face": {
       "front": {
         "name": "Scouts Barracks",
-        "type": "Adaptation",
+        "type": "Costed Adaptation",
         "cost": "3",
         "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SCOUTS_BARRACKS.jpg",
         "isHorizontal": false
       }
     },
     "name": "Scouts Barracks",
-    "type": "Adaptation",
+    "type": "Costed Adaptation",
     "cost": "3",
     "faction": "Enhanced Knights",
     "rarity": "Mythic",
     "cardType": "Adaptation",
     "energy": 3
   },
-  "CHURNHORN": {
-    "id": "CHURNHORN",
+  "BURLSPROUT": {
+    "id": "BURLSPROUT",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Churnhorn",
-        "type": "Harvester",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CHURNHORN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Churnhorn",
-    "type": "Harvester",
-    "cost": "2",
-    "faction": "Savanna Pride",
-    "rarity": "Common",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 2,
-    "invade": 4
-  },
-  "ASHSTRIPE": {
-    "id": "ASHSTRIPE",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ashstripe",
-        "type": "Harvester",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ASHSTRIPE.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ashstripe",
-    "type": "Harvester",
-    "cost": "2",
-    "faction": "Savanna Pride",
-    "rarity": "Common",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 2,
-    "invade": 5
-  },
-  "DUSKBREAKER": {
-    "id": "DUSKBREAKER",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Duskbreaker",
-        "type": "Harvester",
-        "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUSKBREAKER.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Duskbreaker",
-    "type": "Harvester",
-    "cost": "4",
-    "faction": "Savanna Pride",
-    "rarity": "Rare",
-    "cardType": "Creature",
-    "diet": "Harvester",
-    "size": 4,
-    "invade": 3
-  },
-  "GRISTLETUSK": {
-    "id": "GRISTLETUSK",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Gristletusk",
+        "name": "Burlsprout",
         "type": "Harvester",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GRISTLETUSK.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BURLSPROUT.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Gristletusk",
+    "name": "Burlsprout",
     "type": "Harvester",
     "cost": "1",
-    "faction": "Savanna Pride",
+    "faction": "Rootkin Grove",
     "rarity": "Common",
     "cardType": "Creature",
     "diet": "Harvester",
+    "hunger": 1,
     "size": 1,
-    "invade": 4
+    "invade": 2
   },
-  "PRIDEWARDEN": {
-    "id": "PRIDEWARDEN",
+  "GROVE_MOTHER": {
+    "id": "GROVE_MOTHER",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Pridewarden",
-        "type": "Reaper",
-        "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/PRIDEWARDEN.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Pridewarden",
-    "type": "Reaper",
-    "cost": "4",
-    "faction": "Savanna Pride",
-    "rarity": "Rare",
-    "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 4,
-    "invade": 3
-  },
-  "GORELAUGH": {
-    "id": "GORELAUGH",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Gorelaugh",
-        "type": "Reaper",
+        "name": "Grove Mother",
+        "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GORELAUGH.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GROVE_MOTHER.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Gorelaugh",
-    "type": "Reaper",
+    "name": "Grove Mother",
+    "type": "Harvester",
     "cost": "3",
-    "faction": "Savanna Pride",
-    "rarity": "Uncommon",
-    "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 3,
-    "invade": 5
-  },
-  "RISTLEWING": {
-    "id": "RISTLEWING",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "Ristlewing",
-        "type": "Reaper",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RISTLEWING.jpg",
-        "isHorizontal": false
-      }
-    },
-    "name": "Ristlewing",
-    "type": "Reaper",
-    "cost": "2",
-    "faction": "Savanna Pride",
+    "faction": "Rootkin Grove",
     "rarity": "Common",
     "cardType": "Creature",
-    "diet": "Reaper",
-    "size": 2,
-    "invade": 7
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 1,
+    "invade": 2
   },
-  "DUSTLASH": {
-    "id": "DUSTLASH",
+  "ROOTWEAVER": {
+    "id": "ROOTWEAVER",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Dustlash",
-        "type": "Reaper",
-        "cost": "2",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUSTLASH.jpg",
+        "name": "Rootweaver",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ROOTWEAVER.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Dustlash",
-    "type": "Reaper",
+    "name": "Rootweaver",
+    "type": "Harvester",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 1,
+    "size": 1,
+    "invade": 1
+  },
+  "ORCHARDKEEPER": {
+    "id": "ORCHARDKEEPER",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Orchardkeeper",
+        "type": "Harvester",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ORCHARDKEEPER.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Orchardkeeper",
+    "type": "Harvester",
     "cost": "2",
-    "faction": "Savanna Pride",
+    "faction": "Rootkin Grove",
     "rarity": "Uncommon",
     "cardType": "Creature",
-    "diet": "Reaper",
+    "diet": "Harvester",
+    "hunger": 2,
     "size": 2,
-    "invade": 8
+    "invade": 2
+  },
+  "ELDERBARK": {
+    "id": "ELDERBARK",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Elderbark",
+        "type": "Harvester",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ELDERBARK.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Elderbark",
+    "type": "Harvester",
+    "cost": "3",
+    "faction": "Rootkin Grove",
+    "rarity": "Rare",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 3,
+    "invade": 1
+  },
+  "THE_HEARTWOOD_FIRST_TREE": {
+    "id": "THE_HEARTWOOD_FIRST_TREE",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "The Heartwood, First Tree",
+        "type": "Harvester",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/THE_HEARTWOOD_FIRST_TREE.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Heartwood, First Tree",
+    "type": "Harvester",
+    "cost": "4",
+    "faction": "Rootkin Grove",
+    "rarity": "Legendary",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 4,
+    "size": 2,
+    "invade": 1
+  },
+  "CAIRNLING": {
+    "id": "CAIRNLING",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Cairnling",
+        "type": "Harvester",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/CAIRNLING.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cairnling",
+    "type": "Harvester",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 1,
+    "size": 1,
+    "invade": 1
+  },
+  "MOSSBACK_GOLEM": {
+    "id": "MOSSBACK_GOLEM",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mossback Golem",
+        "type": "Harvester",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MOSSBACK_GOLEM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossback Golem",
+    "type": "Harvester",
+    "cost": "3",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 3,
+    "invade": 1
+  },
+  "BROOKWYRM": {
+    "id": "BROOKWYRM",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Brookwyrm",
+        "type": "Harvester",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BROOKWYRM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Brookwyrm",
+    "type": "Harvester",
+    "cost": "2",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 2,
+    "size": 2,
+    "invade": 3
+  },
+  "STILLWATER_SERPENT": {
+    "id": "STILLWATER_SERPENT",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Stillwater Serpent",
+        "type": "Harvester",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/STILLWATER_SERPENT.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stillwater Serpent",
+    "type": "Harvester",
+    "cost": "3",
+    "faction": "Rootkin Grove",
+    "rarity": "Rare",
+    "cardType": "Creature",
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 3,
+    "invade": 3
+  },
+  "SOW": {
+    "id": "SOW",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sow",
+        "type": "Event",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SOW.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sow",
+    "type": "Event",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Event"
+  },
+  "WILDGROWTH": {
+    "id": "WILDGROWTH",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Wildgrowth",
+        "type": "Event",
+        "cost": "3",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/WILDGROWTH.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Wildgrowth",
+    "type": "Event",
+    "cost": "3",
+    "faction": "Rootkin Grove",
+    "rarity": "Rare",
+    "cardType": "Event"
+  },
+  "COMPOST": {
+    "id": "COMPOST",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Compost",
+        "type": "Event",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/COMPOST.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Compost",
+    "type": "Event",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Event"
+  },
+  "REWILDING": {
+    "id": "REWILDING",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Rewilding",
+        "type": "Event",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/REWILDING.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rewilding",
+    "type": "Event",
+    "cost": "2",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Event"
+  },
+  "THORNWALL": {
+    "id": "THORNWALL",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Thornwall",
+        "type": "Tactic",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/THORNWALL.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Thornwall",
+    "type": "Tactic",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Tactic"
+  },
+  "STAND_FIRM": {
+    "id": "STAND_FIRM",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Stand Firm",
+        "type": "Tactic",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/STAND_FIRM.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stand Firm",
+    "type": "Tactic",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Tactic"
+  },
+  "GROVE_ALLMOTHER": {
+    "id": "GROVE_ALLMOTHER",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Grove Allmother",
+        "type": "Evolution",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GROVE_ALLMOTHER.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grove Allmother",
+    "type": "Evolution",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Rare",
+    "cardType": "Evolution",
+    "diet": "Harvester",
+    "hunger": 3,
+    "size": 1,
+    "invade": 2
+  },
+  "ELDER_ORCHARDKEEPER": {
+    "id": "ELDER_ORCHARDKEEPER",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Elder Orchardkeeper",
+        "type": "Evolution",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/ELDER_ORCHARDKEEPER.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Elder Orchardkeeper",
+    "type": "Evolution",
+    "cost": "2",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Evolution",
+    "diet": "Harvester",
+    "hunger": 2,
+    "size": 3,
+    "invade": 2
+  },
+  "STONE_CIRCLE": {
+    "id": "STONE_CIRCLE",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Stone Circle",
+        "type": "Costed Adaptation",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/STONE_CIRCLE.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stone Circle",
+    "type": "Costed Adaptation",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Adaptation",
+    "energy": 1
+  },
+  "SPRING_POOL": {
+    "id": "SPRING_POOL",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Spring Pool",
+        "type": "Costed Adaptation",
+        "cost": "1",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SPRING_POOL.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spring Pool",
+    "type": "Costed Adaptation",
+    "cost": "1",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Adaptation",
+    "energy": 2
+  },
+  "OLD_GROWTH": {
+    "id": "OLD_GROWTH",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Old Growth",
+        "type": "Costed Adaptation",
+        "cost": "2",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/OLD_GROWTH.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Old Growth",
+    "type": "Costed Adaptation",
+    "cost": "2",
+    "faction": "Rootkin Grove",
+    "rarity": "Rare",
+    "cardType": "Adaptation",
+    "energy": 2
+  },
+  "LOAMFIELD": {
+    "id": "LOAMFIELD",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Loamfield",
+        "type": "Adaptation",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/LOAMFIELD.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Loamfield",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Common",
+    "cardType": "Adaptation",
+    "energy": 2
+  },
+  "SEEDBANK": {
+    "id": "SEEDBANK",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Seedbank",
+        "type": "Adaptation",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SEEDBANK.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Seedbank",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Adaptation",
+    "energy": 1
+  },
+  "RIVERBEND": {
+    "id": "RIVERBEND",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Riverbend",
+        "type": "Adaptation",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/RIVERBEND.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Riverbend",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Uncommon",
+    "cardType": "Adaptation",
+    "energy": 1
+  },
+  "MOSSY_CAIRN": {
+    "id": "MOSSY_CAIRN",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mossy Cairn",
+        "type": "Adaptation",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/MOSSY_CAIRN.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mossy Cairn",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Rare",
+    "cardType": "Adaptation",
+    "energy": 2
+  },
+  "GENTLE_TREANT": {
+    "id": "GENTLE_TREANT",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "Gentle Treant",
+        "type": "Adaptation",
+        "cost": "0",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GENTLE_TREANT.jpg",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gentle Treant",
+    "type": "Adaptation",
+    "cost": "0",
+    "faction": "Rootkin Grove",
+    "rarity": "Token",
+    "cardType": "Adaptation",
+    "energy": 1
   },
   "REF1": {
     "id": "REF1",

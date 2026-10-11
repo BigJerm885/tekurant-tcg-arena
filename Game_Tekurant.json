@@ -4,11 +4,12 @@
   "defaultRessources": {
     "backgrounds": [
       "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/backgrounds/mat_savanna.jpg",
-      "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/backgrounds/mat_enhanced.jpg"
+      "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/backgrounds/mat_enhanced.jpg",
+      "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/backgrounds/mat_rootkin.jpg"
     ],
     "decksUrl": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/decks/tekurant-decks.json"
   },
-  "customHelp": "=== TEKURANT (formerly Yosemite) - Core Rules V5.01 === SETUP: load a starter deck (Enhanced Knights or Savanna Pride). Your 7 Adaptations start FACE DOWN in the Adaptation Deck pile (bottom-left), separate from your 50-card main deck. Set your Resistance card's counter 1 to 5. Arena doesn't enforce rules - you run the turn. DAWN: remove unspent Utility; Resistance drifts 1 toward 5; draw 1 (first player skips on turn 1); play the top Adaptation (free ones land in Adaptations, costed ones you move to hand); reset every Adaptation's Energy counter, both players'; untap; play Creatures/Evolutions. MAIN: one Creature at a time, each MUST feed - Home or Away. Harvester: eat Energy = Size from Adaptations (below 0 = Overgrazing: opponent +1 Dominance per point). Reaper: eat Harvester Population, each worth that Harvester's Size. Gain Dominance = food eaten (max Size). Not fully fed = destroyed immediately. AWAY: invasion check = defender's Resistance - your Invade = Population lost. Harvesters need 1+ Pop left; Reapers need Invade >= Resistance. New Creatures can't go Away without Rush. Defender may Contest with 1 Reaper (or Guardian): higher Size + mods wins; invader losing = starves. UTILITY: emptying one of your Adaptations on your turn = +1 Utility. Spend on Tactics/Events/Gear/Evolutions/costed Adaptations; it lasts until your next Dawn. DUSK: Dusk abilities; each surviving Harvester +1 Population; 4+ Energy left in your Adaptations = +1 Stagnation. No Creatures/Evolutions at Dusk. COUNTERS (bottom strip, in order): Dominance | Utility | Stagnation. WIN at 40 Dominance. LOSE on your 4th Stagnation. RESISTANCE = counter 1 on your pinned Resistance card (top-right): set it to 5 at the start. CARD COUNTERS: Creatures - counter 1 = Population (set to 1 when played; Reapers have none), counter 2 = Rank. Adaptations - counter 1 = Energy left (reset to printed Energy at EVERY Dawn). TAP a Creature once it has made its feeding attempt; TAP an Adaptation when you empty it, then add +1 Utility. Tokens: S = Scorch (on an Adaptation, -1 Energy at next refresh), Z = Hibernating. Away: drag an invader to your Away zone. Fully fed invaders return Home; the rest starve (to Graveyard). Flip the Turn Order card for keywords and the Contest rule.",
+  "customHelp": "=== TEKURANT - Core Rules V5.02 === SETUP: load a starter deck (Enhanced Knights, Savanna Pride or Rootkin Grove). Your 7 Adaptations start in the Adaptation Deck side pile (bottom-left), separate from your 50-card main deck. Set your Resistance card's counter 1 to 5. Arena doesn't enforce rules - you run the turn. STATS: Hunger = food a Creature must eat each turn (and the most Dominance it earns from feeding). Size = Contest strength, the food it gives when reaped, and which Harvesters a Reaper may eat (equal or smaller Size). DAWN: lose unspent Utility; flip the top Adaptation into play; reset every Adaptation's Energy counter, both players'; Resistance drifts 1 toward 5; draw 1 (first player skips on turn 1); Dawn abilities; untap; you may Evolve or Promote. MAIN: the only time new Creatures are played. In any order, play cards, spend Utility and feed: one Creature at a time, each MUST feed - Home or Away. Harvester: eat Energy = Hunger from your Adaptations (below 0 = Overgrazing: opponent +1 Dominance per point). Reaper: eat Harvester Population, each worth that Harvester's Size; extra food is wasted. Dominance = food eaten, up to Hunger; Yield adds more. Not fully fed when the attempt ends = destroyed. AWAY (an Invasion): invasion check = defender's Resistance - your Invade = Population lost. Harvesters need 1+ Pop left; Reapers need Invade at least Resistance. New Creatures can't go Away without Rush. Defender may Contest with 1 Reaper (or Guardian): higher Size + mods wins; invader losing = starves. UTILITY: emptying one of your Adaptations on your turn = +1 Utility. Tactics any time; Events, Gear, Evolutions and costed (main-deck) Adaptations on your turn only. It lasts until your next Dawn. DUSK: Dusk abilities; each surviving Harvester +1 Population; 0-3 Energy left = Balanced, 4+ = Stagnation token, below 0 = neither. No Creatures, Evolutions or Promotions at Dusk. COUNTERS (bottom strip): Dominance | Utility. WIN at 40 Dominance. STAGNATION: drag a Stagnation token next to your Adaptations each time you stagnate; your 4th loses. RESISTANCE = counter 1 on your pinned Resistance card (top-right): set it to 5 at the start. CARD COUNTERS: Creatures - counter 1 = Population (set to 1 when played; Reapers have none), counter 2 = Rank. Adaptations - counter 1 = Energy left (reset to printed Energy at EVERY Dawn). TAP a Creature once it has made its feeding attempt; TAP an Adaptation when you empty it, then add +1 Utility. Tokens: S = Scorch (on an Adaptation, -1 Energy at next refresh), Z = Hibernating, ~ = Stagnation. Token cards (Squire Token, Gentle Treant) are in the token picker. Away: drag an invader to your Away zone. Fully fed invaders return Home; the rest starve (to Graveyard). Flip the Turn Order card for stats, keywords and the Contest rule.",
   "cardRotation": 45,
   "cards": {
     "dataUrl": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/CardList.json",
@@ -31,6 +32,7 @@
           "Tactic",
           "Event",
           "Gear",
+          "Costed Adaptation",
           "Adaptation"
         ]
       }
@@ -39,7 +41,7 @@
   "gameplay": {
     "Classic": {
       "mulligan": {
-        "info": "Select any cards to put back, then draw that many. Once per game.   ***  CHECK: your ADAPTATION DECK pile (bottom-left) should hold 7 cards, and set your Resistance card's counter 1 to 5.",
+        "info": "Select any cards to put back, then draw that many. Once per game.   ***  CHECK: your ADAPTATION DECK side pile (bottom-left) should hold 7 cards, and set your Resistance card's counter 1 to 5.",
         "startingHandSize": 7,
         "drawNewHand": false,
         "drawNewSelectedCards": true,
@@ -71,7 +73,7 @@
         "firstPlayerTokenName": "",
         "drawPerTurn": 1
       },
-      "defaultNotes": "COUNTERS (bottom strip, in order): Dominance | Utility | Stagnation. WIN at 40 Dominance. LOSE on your 4th Stagnation. RESISTANCE = counter 1 on your pinned Resistance card (top-right): set it to 5 at the start. CARD COUNTERS: Creatures - counter 1 = Population (set to 1 when played; Reapers have none), counter 2 = Rank. Adaptations - counter 1 = Energy left (reset to printed Energy at EVERY Dawn). TAP a Creature once it has made its feeding attempt; TAP an Adaptation when you empty it, then add +1 Utility. Tokens: S = Scorch (on an Adaptation, -1 Energy at next refresh), Z = Hibernating. Away: drag an invader to your Away zone. Fully fed invaders return Home; the rest starve (to Graveyard). Flip the Turn Order card for keywords and the Contest rule.",
+      "defaultNotes": "COUNTERS (bottom strip): Dominance | Utility. WIN at 40 Dominance. STAGNATION: drag a Stagnation token next to your Adaptations each time you stagnate; your 4th loses. RESISTANCE = counter 1 on your pinned Resistance card (top-right): set it to 5 at the start. CARD COUNTERS: Creatures - counter 1 = Population (set to 1 when played; Reapers have none), counter 2 = Rank. Adaptations - counter 1 = Energy left (reset to printed Energy at EVERY Dawn). TAP a Creature once it has made its feeding attempt; TAP an Adaptation when you empty it, then add +1 Utility. Tokens: S = Scorch (on an Adaptation, -1 Energy at next refresh), Z = Hibernating, ~ = Stagnation. Token cards (Squire Token, Gentle Treant) are in the token picker. Away: drag an invader to your Away zone. Fully fed invaders return Home; the rest starve (to Graveyard). Flip the Turn Order card for stats, keywords and the Contest rule.",
       "draggableTokens": [
         {
           "id": "scorch",
@@ -82,11 +84,19 @@
           "id": "hibernate",
           "name": "Hibernating",
           "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/token_hibernate.png"
+        },
+        {
+          "id": "stagnation",
+          "name": "Stagnation",
+          "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/token_stagnation.png"
         }
       ],
-      "tokens": [],
+      "tokens": [
+        "SQUIRE_TOKEN",
+        "GENTLE_TREANT",
+        "REF1"
+      ],
       "countersStartingValues": [
-        0,
         0,
         0
       ],
@@ -174,6 +184,7 @@
           "Gear": "Home",
           "Token": "Home",
           "Adaptation": "Adaptations",
+          "Costed Adaptation": "Adaptations",
           "Tactic": "Discard",
           "Event": "Discard"
         },
@@ -352,7 +363,7 @@
           },
           "Adaptation": {
             "title": "Adaptation",
-            "isHidden": "yes",
+            "isHidden": "no",
             "height": "SMALL",
             "alignment": "DECK",
             "opponentAlignment": false,

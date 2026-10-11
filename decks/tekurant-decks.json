@@ -4,14 +4,15 @@
     "id": "enhanced-knights",
     "game": "Tekurant",
     "format": "Standard",
-    "cardCount": 50,
-    "createdAt": "2026-10-01T00:00:00.000Z",
-    "lastModifiedAt": "2026-10-01T00:00:00.000Z",
+    "cardCount": 51,
+    "createdAt": "2026-10-11T00:00:00.000Z",
+    "lastModifiedAt": "2026-10-11T00:00:00.000Z",
     "deckList": {
       "categoriesOrder": [
         "Harvester",
         "Reaper",
         "Gear",
+        "Costed Adaptation",
         "Adaptation"
       ],
       "Harvester": [
@@ -80,6 +81,12 @@
           "id": "ROLAND_S_GREATSWORD"
         }
       ],
+      "Costed Adaptation": [
+        {
+          "count": 1,
+          "id": "SCOUTS_BARRACKS"
+        }
+      ],
       "Adaptation": [
         {
           "count": 2,
@@ -92,10 +99,6 @@
         {
           "count": 2,
           "id": "MONUMENT_OF_STRATEGY"
-        },
-        {
-          "count": 1,
-          "id": "SCOUTS_BARRACKS"
         }
       ]
     }
@@ -105,9 +108,9 @@
     "id": "savanna-pride",
     "game": "Tekurant",
     "format": "Standard",
-    "cardCount": 50,
-    "createdAt": "2026-10-01T00:00:00.000Z",
-    "lastModifiedAt": "2026-10-01T00:00:00.000Z",
+    "cardCount": 51,
+    "createdAt": "2026-10-11T00:00:00.000Z",
+    "lastModifiedAt": "2026-10-11T00:00:00.000Z",
     "deckList": {
       "categoriesOrder": [
         "Harvester",
@@ -115,6 +118,7 @@
         "Evolution",
         "Tactic",
         "Event",
+        "Costed Adaptation",
         "Adaptation"
       ],
       "Harvester": [
@@ -172,7 +176,7 @@
         },
         {
           "count": 2,
-          "id": "CARRION_KETTLE"
+          "id": "SCAVENGER_S_TEETH"
         }
       ],
       "Tactic": [
@@ -203,6 +207,12 @@
           "id": "DROUGHT"
         }
       ],
+      "Costed Adaptation": [
+        {
+          "count": 1,
+          "id": "ACACIA_GROVE"
+        }
+      ],
       "Adaptation": [
         {
           "count": 3,
@@ -215,10 +225,137 @@
         {
           "count": 1,
           "id": "WATERING_HOLE"
+        }
+      ]
+    }
+  },
+  {
+    "title": "Rootkin Grove — Starter",
+    "id": "rootkin-grove",
+    "game": "Tekurant",
+    "format": "Standard",
+    "cardCount": 50,
+    "createdAt": "2026-10-11T00:00:00.000Z",
+    "lastModifiedAt": "2026-10-11T00:00:00.000Z",
+    "deckList": {
+      "categoriesOrder": [
+        "Harvester",
+        "Evolution",
+        "Tactic",
+        "Event",
+        "Costed Adaptation",
+        "Adaptation"
+      ],
+      "Harvester": [
+        {
+          "count": 4,
+          "id": "BURLSPROUT"
+        },
+        {
+          "count": 4,
+          "id": "GROVE_MOTHER"
+        },
+        {
+          "count": 3,
+          "id": "ROOTWEAVER"
+        },
+        {
+          "count": 3,
+          "id": "ORCHARDKEEPER"
+        },
+        {
+          "count": 2,
+          "id": "ELDERBARK"
+        },
+        {
+          "count": 2,
+          "id": "THE_HEARTWOOD_FIRST_TREE"
+        },
+        {
+          "count": 3,
+          "id": "CAIRNLING"
+        },
+        {
+          "count": 2,
+          "id": "MOSSBACK_GOLEM"
+        },
+        {
+          "count": 3,
+          "id": "BROOKWYRM"
+        },
+        {
+          "count": 2,
+          "id": "STILLWATER_SERPENT"
+        }
+      ],
+      "Evolution": [
+        {
+          "count": 2,
+          "id": "GROVE_ALLMOTHER"
+        },
+        {
+          "count": 2,
+          "id": "ELDER_ORCHARDKEEPER"
+        }
+      ],
+      "Tactic": [
+        {
+          "count": 2,
+          "id": "THORNWALL"
         },
         {
           "count": 1,
-          "id": "ACACIA_GROVE"
+          "id": "STAND_FIRM"
+        }
+      ],
+      "Event": [
+        {
+          "count": 3,
+          "id": "SOW"
+        },
+        {
+          "count": 2,
+          "id": "WILDGROWTH"
+        },
+        {
+          "count": 2,
+          "id": "COMPOST"
+        },
+        {
+          "count": 2,
+          "id": "REWILDING"
+        }
+      ],
+      "Costed Adaptation": [
+        {
+          "count": 2,
+          "id": "STONE_CIRCLE"
+        },
+        {
+          "count": 2,
+          "id": "SPRING_POOL"
+        },
+        {
+          "count": 2,
+          "id": "OLD_GROWTH"
+        }
+      ],
+      "Adaptation": [
+        {
+          "count": 3,
+          "id": "LOAMFIELD"
+        },
+        {
+          "count": 2,
+          "id": "SEEDBANK"
+        },
+        {
+          "count": 1,
+          "id": "RIVERBEND"
+        },
+        {
+          "count": 1,
+          "id": "MOSSY_CAIRN"
         }
       ]
     }
