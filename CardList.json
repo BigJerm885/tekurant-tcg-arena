@@ -18,19 +18,19 @@
     "rarity": "Uncommon",
     "cardType": "Event"
   },
-  "KETTLEBUCK": {
-    "id": "KETTLEBUCK",
+  "BURROWDIGGER": {
+    "id": "BURROWDIGGER",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Kettlebuck",
+        "name": "Burrowdigger",
         "type": "Harvester",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/KETTLEBUCK.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BURROWDIGGER.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Kettlebuck",
+    "name": "Burrowdigger",
     "type": "Harvester",
     "cost": "1",
     "faction": "Savanna Pride",
@@ -64,19 +64,19 @@
     "size": 2,
     "invade": 6
   },
-  "SUNMANE_PRIDE_MATRIARCH": {
-    "id": "SUNMANE_PRIDE_MATRIARCH",
+  "SUNWING": {
+    "id": "SUNWING",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Sunmane, Pride Matriarch",
+        "name": "Sunwing",
         "type": "Reaper",
         "cost": "4",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SUNMANE_PRIDE_MATRIARCH.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SUNWING.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Sunmane, Pride Matriarch",
+    "name": "Sunwing",
     "type": "Reaper",
     "cost": "4",
     "faction": "Savanna Pride",
@@ -420,19 +420,19 @@
     "size": 4,
     "invade": 3
   },
-  "GORELAUGH": {
-    "id": "GORELAUGH",
+  "BONESKULL_CRAWLER": {
+    "id": "BONESKULL_CRAWLER",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Gorelaugh",
+        "name": "Boneskull Crawler",
         "type": "Reaper",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/GORELAUGH.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BONESKULL_CRAWLER.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Gorelaugh",
+    "name": "Boneskull Crawler",
     "type": "Reaper",
     "cost": "3",
     "faction": "Savanna Pride",
@@ -466,19 +466,19 @@
     "size": 2,
     "invade": 7
   },
-  "DUSTLASH": {
-    "id": "DUSTLASH",
+  "DUNESHARD": {
+    "id": "DUNESHARD",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Dustlash",
+        "name": "Duneshard",
         "type": "Reaper",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUSTLASH.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUNESHARD.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Dustlash",
+    "name": "Duneshard",
     "type": "Reaper",
     "cost": "1",
     "faction": "Savanna Pride",
