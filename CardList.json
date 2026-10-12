@@ -87,38 +87,38 @@
     "size": 5,
     "invade": 4
   },
-  "SCORCHING_SUN": {
-    "id": "SCORCHING_SUN",
+  "DRAGON_S_TERROR": {
+    "id": "DRAGON_S_TERROR",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Scorching Sun",
+        "name": "Dragon's Terror",
         "type": "Event",
         "cost": "0",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/SCORCHING_SUN.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DRAGON_S_TERROR.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Scorching Sun",
+    "name": "Dragon's Terror",
     "type": "Event",
     "cost": "0",
     "faction": "Savanna Pride",
     "rarity": "Common",
     "cardType": "Event"
   },
-  "BARED_FANGS": {
-    "id": "BARED_FANGS",
+  "TEAM_UP": {
+    "id": "TEAM_UP",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Bared Fangs",
+        "name": "Team up",
         "type": "Tactic",
         "cost": "1",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BARED_FANGS.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/TEAM_UP.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Bared Fangs",
+    "name": "Team up",
     "type": "Tactic",
     "cost": "1",
     "faction": "Savanna Pride",
@@ -163,24 +163,24 @@
     "rarity": "Uncommon",
     "cardType": "Event"
   },
-  "DROUGHT": {
-    "id": "DROUGHT",
+  "BURN_THE_LAND": {
+    "id": "BURN_THE_LAND",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Drought",
-        "type": "Event",
-        "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DROUGHT.jpg",
+        "name": "Burn the land",
+        "type": "Tactic",
+        "cost": "4",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/BURN_THE_LAND.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Drought",
-    "type": "Event",
-    "cost": "3",
+    "name": "Burn the land",
+    "type": "Tactic",
+    "cost": "4",
     "faction": "Savanna Pride",
     "rarity": "Rare",
-    "cardType": "Event"
+    "cardType": "Tactic"
   },
   "PRIDEWARDEN_LORD_OF_THE_BURNING_PLAIN": {
     "id": "PRIDEWARDEN_LORD_OF_THE_BURNING_PLAIN",
@@ -351,19 +351,19 @@
     "size": 2,
     "invade": 5
   },
-  "DUSKBREAKER": {
-    "id": "DUSKBREAKER",
+  "LIGHTSTRIPE": {
+    "id": "LIGHTSTRIPE",
     "isToken": false,
     "face": {
       "front": {
-        "name": "Duskbreaker",
+        "name": "Lightstripe",
         "type": "Harvester",
         "cost": "3",
-        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/DUSKBREAKER.jpg",
+        "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/LIGHTSTRIPE.jpg",
         "isHorizontal": false
       }
     },
-    "name": "Duskbreaker",
+    "name": "Lightstripe",
     "type": "Harvester",
     "cost": "3",
     "faction": "Savanna Pride",
@@ -371,8 +371,8 @@
     "cardType": "Creature",
     "diet": "Harvester",
     "hunger": 3,
-    "size": 3,
-    "invade": 3
+    "size": 2,
+    "invade": 7
   },
   "GRISTLETUSK": {
     "id": "GRISTLETUSK",

@@ -140,7 +140,7 @@
         },
         {
           "count": 2,
-          "id": "DUSKBREAKER"
+          "id": "LIGHTSTRIPE"
         },
         {
           "count": 4,
@@ -182,11 +182,15 @@
       "Tactic": [
         {
           "count": 2,
-          "id": "BARED_FANGS"
+          "id": "TEAM_UP"
         },
         {
           "count": 2,
           "id": "HEAT_HAZE"
+        },
+        {
+          "count": 2,
+          "id": "BURN_THE_LAND"
         }
       ],
       "Event": [
@@ -196,15 +200,11 @@
         },
         {
           "count": 3,
-          "id": "SCORCHING_SUN"
+          "id": "DRAGON_S_TERROR"
         },
         {
           "count": 2,
           "id": "STAMPEDE"
-        },
-        {
-          "count": 2,
-          "id": "DROUGHT"
         }
       ],
       "Costed Adaptation": [
