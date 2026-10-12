@@ -366,7 +366,7 @@
           },
           "Adaptation": {
             "title": "Adaptation",
-            "isHidden": "no",
+            "isHidden": "yes",
             "height": "SMALL",
             "alignment": "DECK",
             "opponentAlignment": false,
@@ -378,7 +378,10 @@
             "enterSpun": false,
             "isGroupForbidden": true,
             "keepTappedNewTurn": false,
-            "showHiddenCardInHistory": false
+            "showHiddenCardInHistory": false,
+            "drawDestinations": {
+              "_default": "Adaptations"
+            }
           },
           "Adaptations": {
             "title": "Adaptations",
