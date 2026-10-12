@@ -5,18 +5,18 @@
     "face": {
       "front": {
         "name": "Pridewarden's Pride",
-        "type": "Event",
+        "type": "Tactic",
         "cost": "1",
         "image": "https://raw.githubusercontent.com/BigJerm885/tekurant-tcg-arena/main/images/PRIDEWARDEN_S_PRIDE.jpg",
         "isHorizontal": false
       }
     },
     "name": "Pridewarden's Pride",
-    "type": "Event",
+    "type": "Tactic",
     "cost": "1",
     "faction": "Savanna Pride",
     "rarity": "Uncommon",
-    "cardType": "Event"
+    "cardType": "Tactic"
   },
   "BURROWDIGGER": {
     "id": "BURROWDIGGER",

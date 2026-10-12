@@ -181,6 +181,10 @@
       ],
       "Tactic": [
         {
+          "count": 3,
+          "id": "PRIDEWARDEN_S_PRIDE"
+        },
+        {
           "count": 2,
           "id": "TEAM_UP"
         },
@@ -194,10 +198,6 @@
         }
       ],
       "Event": [
-        {
-          "count": 3,
-          "id": "PRIDEWARDEN_S_PRIDE"
-        },
         {
           "count": 3,
           "id": "DRAGON_S_TERROR"
